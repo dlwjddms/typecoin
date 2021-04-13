@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "npx tsc"
+  }
+  
+}
