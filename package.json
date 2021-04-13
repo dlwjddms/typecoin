@@ -2,7 +2,7 @@
   "dependencies": {
     "typescript": "^4.2.4"
   },
-  "scripts": {
+  "scripts": { 
     "start": "node index.js",
     "prestart": "npx tsc"
   }
