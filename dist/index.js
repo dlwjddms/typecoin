@@ -7,13 +7,17 @@ console.log("heelp:");
  -> we can predict what is going to happen..
  : compile can help you what is going om wrong
 */
-/* normal js
- but in ts sayHi(name,age).. this will get error ..
- in js this doesn'y make error
+/* ts
+ we will give them a type
  */
 const name = "JJeong", age = 24, gender = "Female";
 const sayHi = (name, age, gender) => {
-    console.log(`hello ${name}, you are ${age}, you are ${gender}`);
+    // (name, age, gender?) => if you attach ? it is optional..!
+    console.log(`hello ${name}, you are ${age}, you are ${gender} :::`);
 };
-sayHi(name, age);
+sayHi(name, age, gender);
+/* install tsc watch
+ yarn add tsc-watch --dev
+ -> it will update the changes automatically after saving...
+  not by typing yarn start every single time*/ 
 //# sourceMappingURL=index.js.map

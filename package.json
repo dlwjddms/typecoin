@@ -2,9 +2,10 @@
   "dependencies": {
     "typescript": "^4.2.4"
   },
-  "scripts": { 
-    "start": "node index.js",
-    "prestart": "npx tsc"
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
   }
-  
 }
